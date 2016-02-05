@@ -13,6 +13,8 @@
 		D679E6361C64D5A200A6C2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679E6341C64D5A200A6C2A6 /* Main.storyboard */; };
 		D679E6381C64D5A200A6C2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D679E6371C64D5A200A6C2A6 /* Assets.xcassets */; };
 		D679E63B1C64D5A200A6C2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679E6391C64D5A200A6C2A6 /* LaunchScreen.storyboard */; };
+		D679E6481C64D7B800A6C2A6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D679E6471C64D7B800A6C2A6 /* MainViewController.m */; };
+		D679E64B1C64D7D300A6C2A6 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D679E64A1C64D7D300A6C2A6 /* PreviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,13 +22,17 @@
 		7AAA4EAEFD8F7E0C31690DD3 /* libPods-Assigment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Assigment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A5851FF04D913B73F3F049 /* Pods-Assigment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assigment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assigment/Pods-Assigment.release.xcconfig"; sourceTree = "<group>"; };
 		D679E6281C64D5A200A6C2A6 /* Assigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assigment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D679E62C1C64D5A200A6C2A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = App/main.m; sourceTree = "<group>"; };
-		D679E62E1C64D5A200A6C2A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = App/AppDelegate.h; sourceTree = "<group>"; };
-		D679E62F1C64D5A200A6C2A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = App/AppDelegate.m; sourceTree = "<group>"; };
+		D679E62C1C64D5A200A6C2A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D679E62E1C64D5A200A6C2A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D679E62F1C64D5A200A6C2A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D679E6351C64D5A200A6C2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D679E6371C64D5A200A6C2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		D679E6371C64D5A200A6C2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D679E63A1C64D5A200A6C2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D679E63C1C64D5A200A6C2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		D679E63C1C64D5A200A6C2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D679E6461C64D7B800A6C2A6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D679E6471C64D7B800A6C2A6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D679E6491C64D7D300A6C2A6 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		D679E64A1C64D7D300A6C2A6 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,10 @@
 		D679E62A1C64D5A200A6C2A6 /* Assigment */ = {
 			isa = PBXGroup;
 			children = (
-				D679E6451C64D65400A6C2A6 /* Resources */,
-				D679E6441C64D64B00A6C2A6 /* ViewControllers */,
+				D679E64C1C64DDAB00A6C2A6 /* Storyboards */,
 				D679E6431C64D62C00A6C2A6 /* App */,
+				D679E6441C64D64B00A6C2A6 /* ViewControllers */,
+				D679E6451C64D65400A6C2A6 /* Resources */,
 				D679E62B1C64D5A200A6C2A6 /* Supporting Files */,
 			);
 			path = Assigment;
@@ -103,24 +110,36 @@
 				D679E62C1C64D5A200A6C2A6 /* main.m */,
 			);
 			name = App;
-			path = /Users/Fluffy/Documents/Assigment/Assigment/Assigment;
+			path = /Users/Fluffy/Documents/Assigment/Assigment/Assigment/App;
 			sourceTree = "<absolute>";
 		};
 		D679E6441C64D64B00A6C2A6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D679E6461C64D7B800A6C2A6 /* MainViewController.h */,
+				D679E6471C64D7B800A6C2A6 /* MainViewController.m */,
+				D679E6491C64D7D300A6C2A6 /* PreviewViewController.h */,
+				D679E64A1C64D7D300A6C2A6 /* PreviewViewController.m */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D679E6451C64D65400A6C2A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D679E6341C64D5A200A6C2A6 /* Main.storyboard */,
 				D679E6371C64D5A200A6C2A6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D679E64C1C64DDAB00A6C2A6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D679E6341C64D5A200A6C2A6 /* Main.storyboard */,
 				D679E6391C64D5A200A6C2A6 /* LaunchScreen.storyboard */,
 			);
-			name = Resources;
+			name = Storyboards;
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D679E6301C64D5A200A6C2A6 /* AppDelegate.m in Sources */,
+				D679E6481C64D7B800A6C2A6 /* MainViewController.m in Sources */,
 				D679E62D1C64D5A200A6C2A6 /* main.m in Sources */,
+				D679E64B1C64D7D300A6C2A6 /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +279,6 @@
 				D679E6351C64D5A200A6C2A6 /* Base */,
 			);
 			name = Main.storyboard;
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		D679E6391C64D5A200A6C2A6 /* LaunchScreen.storyboard */ = {
@@ -267,7 +287,6 @@
 				D679E63A1C64D5A200A6C2A6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,7 +379,7 @@
 			baseConfigurationReference = 16EBFCC03EB3CF0206D0D6D1 /* Pods-Assigment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Assigment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Assigment/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ivo.Indriksons.Assigment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,7 +391,7 @@
 			baseConfigurationReference = A5A5851FF04D913B73F3F049 /* Pods-Assigment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Assigment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Assigment/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ivo.Indriksons.Assigment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
